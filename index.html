@@ -7,6 +7,38 @@
     <title>Web Form And JavaScript Objects</title>
 </head>
 <body>
-    
+    <h1>Add Video Game</h1>
+
+    <div>
+        <ul id="validation-summary">
+            <p>Errors go here...</p>
+        </ul>
+    </div>
+
+    <form>
+        <label for="title">Title: </label>
+        <input id="title" type="text">
+        <br>
+
+        <label for="price">Price: </label>
+        <input id="price" type="text">
+        <br>
+
+        <label for="rating">Rating:</label>
+        <select id="rating">
+            <option value="">Please choose a rating</option>
+            <option value="E">E - Everyone</option>
+            <option>T</option>
+            <option>M</option>
+        </select>
+        <br>
+
+        <input type="checkbox" id="online">
+        <label for="online">Online Only?</label>
+        <br>
+
+        <input type="button" value="Add New Video Game">
+    </form>
+
 </body>
 </html>
