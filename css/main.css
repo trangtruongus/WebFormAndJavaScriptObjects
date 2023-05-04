@@ -1,23 +1,83 @@
-input[type=text]{
-    padding: .4em;
+input[type=text] {
+    padding: .5em;
+    height: 30px;
+    margin-bottom: 1em;
+    width: 200px;
+    border-radius: 10px;
+    border-width: 1px;
 }
 
-label{
+label {
     width: 50%;
     display: inline-block;
     text-align: right;
 }
 
-input[type=checkbox], input[type=button]{
-    margin-left: 50%;
+select {
+    background-color: transparent;
+    padding: .5em;
+    margin: 0;
+    width: 217px;
+    height: 45px;
+    margin-bottom: 1em;
+    border-radius: 10px;
 }
 
-#validation-summary{
+.online-label {
+    display: inline-block;
+}
+
+#online {
+    display: inline-block;
+    height: 20px;
+    width: 20px;
+    background-color: #eee;
+}
+
+input[type=button] {
+    color: black;
+    font-size: large;
+    margin-left: calc(50% + 3px);
+    margin-top: 1em;
+    margin-bottom: 1em;
+    height: 45px;
+    width: 217px;
+    background-color: cyan;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type=button]:hover {
+    color: black;
+    font-size: large;
+    margin-left: calc(50% + 3px);
+    margin-bottom: 1em;
+    height: 45px;
+    width: 217px;
+    background-color: dodgerblue;
+    border-radius: 10px;
+    border: none;
+}
+
+input[type=button]:active {
+    color: white;
+    font-size: large;
+    margin-left: calc(50% + 3px);
+    margin-bottom: 1em;
+    height: 45px;
+    width: 217px;
+    background-color: rgb(250, 0, 83);
+    border-radius: 10px;
+    border: none;
+    scale: 0.9;
+}
+
+#validation-summary {
     color: red;
     list-style-type: square;
 }
 
-.rating-error{
+.rating-error {
     font-style: italic;
     font-weight: bolder;
     cursor: pointer;
